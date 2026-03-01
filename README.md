@@ -33,6 +33,8 @@ To force-activate specific StarEngine features, use the following:
 * Name: DXVK_CONFIG_FILE
 * Value: starengine.enabled=1; starengine.drawThreshold=150; starengine.bindSkip=1
 
+*Name:DXVK_CONFIG_FILE
+*Value: the value should be the directory where your dxvk.conf file isfound in your device (if you choose the wcp file install method
 ---
 
 ## ⚙️ Configuration Tuning
