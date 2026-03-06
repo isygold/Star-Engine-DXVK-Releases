@@ -1,4 +1,4 @@
-# STAR ENGINE: DXVK v2.7.1 (Adreno Optimized)
+# STAR ENGINE: DXVK v2.7.1.1 (Adreno Optimized ASYNC VERSION)
 ### High-Performance DXVK Fork for Android Emulation
 
 STAR ENGINE is a specialized performance modification of DXVK v2.7.1 designed specifically for Qualcomm Adreno GPUs in mobile/Android environments (Star Emulator, Winlator, Mobox). This version focuses on eliminating driver overhead and preventing command buffer overflows common in mobile gaming.
@@ -32,16 +32,39 @@ Place your "starengine.ini" or "dxvk.conf" in one of the following supported pat
 To force-activate specific StarEngine features, use the following:
 * Name: DXVK_CONFIG_FILE
 * Value: starengine.enabled=1; starengine.drawThreshold=150; starengine.bindSkip=1
-
 *Name:DXVK_CONFIG_FILE
-*Value: the value should be the directory where your dxvk.conf file isfound in your device (if you choose the wcp file install method
+*Value: the value should be the directory where your dxvk.conf file is found in your device (if you choose the wcp file install method
+
+NOTE THAT THE BIND SKIP VALUE CAN BE CHANGED BASED ON THE LEVEL OF GAME STUTTERING.
 ---
 
 ## ⚙️ Configuration Tuning
 You can modify the "DrawThreshold" value in your config file to find the perfect balance between stability and smooth gameplay:
 * Recommended for Star Emulator: 150 - 300.
 * DrawThreshold = 150 (Default / Stable).
-* Higher values may increase performance but could lead to graphical glitches or driver crashes depending on your GPU.
+* Higher values may increase performance but could lead to graphical glitches or driver crashes depending on your GPU. 
+
+
+
+
+
+
+
+
+
+
+## UPDATE LOG 2: (DXVK 2.7.1.1)
+
+🛠️ Key Technical Features
+
+-Dynamic-State-Aware Bind-Skip: Reduces CPU overhead by skipping redundant pipeline calls unless dynamic states (viewports/scissors) change.
+-Mid-Frame Command Flushing: Automatically flushes the command list after a configurable number of draw calls to prevent Adreno driver crashes.
+-Android Storage Support: Intelligent configuration loading from paths like /sdcard, /Download, and /Winlator.
+
+
+Configuration & Installation(still the same as the previous installation)
+------------------------------------------------------------
+------------------------------------------------------------
 
 ---
 
@@ -52,4 +75,4 @@ Note: The HUD name for this DXVK fork is different as listed here but performanc
 * Base Project: DXVK (Original by doitsujin) v2.7.1
 * License: Distributed under the zlib/libpng license.
 
-> NOTE FOR DEVELOPERS: This repository currently hosts compiled binaries and configuration documentation. Source code patches (dxvk_context.cpp and dxvk_context.h) are scheduled for release following the initial public testing phase.
+> NOTE FOR DEVELOPERS: This repository currently hosts compiled binaries and configuration documentation. Source code patches (dxvk_context.cpp and dxvk_context.h) are scheduled for release following the initial public testing phase. 
