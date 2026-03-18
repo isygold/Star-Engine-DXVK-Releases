@@ -63,12 +63,20 @@ You can modify the "DrawThreshold" value in your config file to find the perfect
 
 
 Configuration & Installation(still the same as the previous installation)
+
 ------------------------------------------------------------
 ------------------------------------------------------------
+
+## NOTE (FOR BIONIC VERSION USAGE): 
+* The turnip version 25.1.0 as default does not properly communicate with this dxvk driver hence should not be used as it will not work! properly install the latest turnip driver that is good or compatible for your device performance. All installations and manual placing should be done before the creating a container and the drivers are to be set during installation as this ensures a clean setup! 
+* Also the box 64 version is to be considered; version 0.3.6/ 0.3.6-xxxx for stability usage with this driver(this can be as a fall back for performance) versions 0.3.7/0.3.7-xxxx - 0.4.xxxx variant are recommended for better performance.( This relies greatly and depends on the Device used)
+* The tests in the container will have low fps beacuse of the draw call threshold being set but will notice a very smooth frame pacing and smoother test, this applies in the game as well depending on your specific hardware device (GPUS with 6xx-7xx and 8s gen 1 too will be working good for this driver).
+* You can tweak your dxvk.conf to better suit your specific game having heavy stutter and lags which help in reducing its issue, but remember to always have a copy of your previous tweaked or default dxvk.conf file incase you want to fallback to it.
+* Provide log files when placing issues down it helps a lot to pinpoint the exact issues.
+* The HUD name for this DXVK fork is different as listed here but performance and stability remains the intact! 
 
 ---
 
-Note: The HUD name for this DXVK fork is different as listed here but performance and stability remains the intact!
 
 ## 📜 Credits & License
 * Lead Developer: ISYGOLD
