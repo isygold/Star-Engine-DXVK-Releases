@@ -34,7 +34,12 @@ To force-activate specific StarEngine features, use the following:
 * Value: starengine.enabled=1; starengine.drawThreshold=150; starengine.bindSkip=1
 
 *Name:DXVK_CONFIG_FILE
-*Value: the value should be the directory where your dxvk.conf file is found in your device (if you choose the wcp file install method
+*Value: the value should be the directory where your dxvk.conf file is found in your device (if you choose the wcp file install method) 
+
+## NOTE:
+* You can tweak your dxvk.conf to better suit your specific game having heavy stutter and lags which help in reducing its issue, but remember to always have a copy of your previous tweaked dxvk.conf file incase you want to fallback to it.
+* Provide log files when placing issues down it helps a lot to pinpoint the exact issues.
+* The HUD name for this DXVK fork is different as listed here but performance and stability remains the intact!
 ---
 
 ## ⚙️ Configuration Tuning
@@ -43,7 +48,6 @@ You can modify the "DrawThreshold" value in your config file to find the perfect
 * DrawThreshold = 150 (Default / Stable).
 * Higher values may increase performance but could lead to graphical glitches or driver crashes depending on your GPU. 
 
-Note: The HUD name for this DXVK fork is different as listed here but performance and stability remains the intact!
 
 ## 📜 Credits & License
 * Lead Developer: ISYGOLD
