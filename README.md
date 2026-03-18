@@ -33,8 +33,8 @@ To force-activate specific StarEngine features, use the following:
 * Name: DXVK_CONFIG_FILE
 * Value: starengine.enabled=1; starengine.drawThreshold=150; starengine.bindSkip=1
 
-*Name:DXVK_CONFIG_FILE
-*Value: the value should be the directory where your dxvk.conf file is found in your device (if you choose the wcp file install method) 
+* Name:DXVK_CONFIG_FILE
+* Value: the value should be the directory where your dxvk.conf file is found in your device (if you choose the wcp file install method) 
 
 ## NOTE:
 * You can tweak your dxvk.conf to better suit your specific game having heavy stutter and lags which help in reducing its issue, but remember to always have a copy of your previous tweaked dxvk.conf file incase you want to fallback to it.
