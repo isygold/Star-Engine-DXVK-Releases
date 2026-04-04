@@ -1,4 +1,6 @@
-# STAR ENGINE: DXVK v2.7.1.1 (Adreno Optimized ASYNC VERSION)
+<img width="1152" height="768" alt="STAR-ENGINE-DXVK" src="https://github.com/user-attachments/assets/00cae1c5-0e64-44c1-adbc-2e504705cd6b" />
+
+## STAR ENGINE: DXVK v2.7.1.1 (Adreno Optimized ASYNC VERSION)
 ### High-Performance DXVK Fork for Android Emulation
 
 STAR ENGINE is a specialized performance modification of DXVK v2.7.1 designed specifically for Qualcomm Adreno GPUs in mobile/Android environments (Star Emulator, Winlator, Mobox). This version focuses on eliminating driver overhead and preventing command buffer overflows common in mobile gaming.
@@ -75,6 +77,10 @@ Configuration & Installation(still the same as the previous installation)
 * Provide log files when placing issues down it helps a lot to pinpoint the exact issues.
 * The HUD name for this DXVK fork is different as listed here but performance and stability remains the intact!
 * Make sure to avoid mistakes when inputing the environment variables as this is crucial for this version
+![Screenshot_2026-03-17-09-09-29-987_com winlator cmod](https://github.com/user-attachments/assets/ef0ddc15-65cf-4c69-8345-5955534550cc)
+![Screenshot_2026-03-17-11-27-08-078_com winlator cmod](https://github.com/user-attachments/assets/272e8935-f57b-4b2d-8a8e-4cc085519309)
+![Screenshot_2026-03-17-11-44-38-570_com winlator cmod](https://github.com/user-attachments/assets/03765f1e-3d38-4144-96e2-75107440a3e9)
+![Screenshot_2026-03-17-11-46-08-680_com winlator cmod](https://github.com/user-attachments/assets/2074f2da-7e70-4385-95d5-b9bb134f2409)
 
 ---
 
