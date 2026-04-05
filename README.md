@@ -82,6 +82,13 @@ Configuration & Installation(still the same as the previous installation)
 ![Screenshot_2026-03-17-11-44-38-570_com winlator cmod](https://github.com/user-attachments/assets/03765f1e-3d38-4144-96e2-75107440a3e9)
 ![Screenshot_2026-03-17-11-46-08-680_com winlator cmod](https://github.com/user-attachments/assets/2074f2da-7e70-4385-95d5-b9bb134f2409)
 
+* For max performance locking use the FEXCORE and VKD3D+DXVK and DGVOODO
+* ![Screenshot_2026-04-05-19-00-22-978_com winlator star](https://github.com/user-attachments/assets/313da954-6b8d-41af-a328-cc7da58b41d5)
+![Screenshot_2026-04-05-19-05-21-483_com winlator star](https://github.com/user-attachments/assets/f4f580dc-e1fd-46e2-8d7a-fcd62df38bbd)
+![Screenshot_2026-04-05-19-07-27-369_com winlator star](https://github.com/user-attachments/assets/aac90501-c949-43d9-a93a-9e7b24eb18ae)
+![Screenshot_2026-04-05-19-22-26-530_com winlator star](https://github.com/user-attachments/assets/77ad9a68-1a70-4f77-beab-758a5de7fbaa)
+
+
 ---
 
 
