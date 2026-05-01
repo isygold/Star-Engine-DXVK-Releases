@@ -28,6 +28,7 @@ iphone6 - Device: [e.g.Redmi note 13 ]
  - OS: [e.g. HyperOS 1]
  - RAM/ROM: [e.g 8/256 gb]
  - CPU/GPU: [e.g SD 680/adreno 610]
+ - EMULATOR/VERSION: [star emulator/bionic v1.1]
 
 **Additional context**
 Add any other context about the problem here.
