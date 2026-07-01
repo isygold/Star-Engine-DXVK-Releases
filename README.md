@@ -1,6 +1,8 @@
 <img width="1152" height="768" alt="STAR-ENGINE-DXVK" src="https://github.com/user-attachments/assets/00cae1c5-0e64-44c1-adbc-2e504705cd6b" />
 
 ## STAR ENGINE: DXVK v2.7.1.1 (Adreno Optimized ASYNC VERSION)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%24?logo=github&style=flat)](https://github.com/sponsors/isygold)
+
 ### High-Performance DXVK Fork for Android Emulation
 
 STAR ENGINE is a specialized performance modification of DXVK v2.7.1 designed specifically for Qualcomm Adreno GPUs in mobile/Android environments (Star Emulator, Winlator, Mobox). This version focuses on eliminating driver overhead and preventing command buffer overflows common in mobile gaming.
