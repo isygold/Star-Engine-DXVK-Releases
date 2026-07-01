@@ -3,7 +3,7 @@
 # STAR ENGINE: DXVK v2.7.1 (Adreno Optimized)
 ### High-Performance DXVK Fork for Android Emulation
 
-STAR ENGINE is a specialized performance modification of DXVK v2.7.1 designed specifically for Qualcomm Adreno GPUs in mobile/Android environments (Star Emulator, Winlator, Mobox). This version focuses on eliminating driver overhead and preventing command buffer overflows common in mobile gaming.
+STAR ENGINE is a specialized performance modification of DXVK (via GPLAsync) v2.7.1 designed specifically for Qualcomm Adreno GPUs in mobile/Android environments (Star Emulator, Winlator, Mobox). This version focuses on eliminating driver overhead and preventing command buffer overflows common in mobile gaming.
 
 ---
 
@@ -54,6 +54,7 @@ You can modify the "DrawThreshold" value in your config file to find the perfect
 ## 📜 Credits & License
 * Lead Developer: ISYGOLD
 * Base Project: DXVK (Original by doitsujin) v2.7.1
+* Upstream Parent: GPLAsync v2.7.1 by ishitatsuyuki (async pipeline compilation foundation)
 * License: Distributed under the zlib/libpng license.
 
 > NOTE FOR DEVELOPERS: This repository currently hosts compiled binaries and configuration documentation. Source code patches (dxvk_context.cpp and dxvk_context.h) are scheduled for release following the initial public testing phase.
