@@ -1,6 +1,8 @@
 <img width="1152" height="768" alt="STAR-ENGINE-DXVK" src="https://github.com/user-attachments/assets/93a4ce07-1e87-4bf5-a528-e0b99be02c44" />
 
 # 🌟 STAR ENGINE: DXVK v2.7.2.1 (HAAE Update)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%24?logo=github&style=flat)](https://github.com/sponsors/isygold)
+
 ### **Adaptive High-Performance DXVK Fork for Android Emulation**
 
 **STAR ENGINE** is a specialized performance modification of DXVK designed specifically for **Qualcomm Adreno GPUs** in mobile environments (Star Emulator, Winlator, Mobox). This fork prioritizes **Frame Pacing Stability** and **Driver Survival** over raw, stuttery peak FPS.
